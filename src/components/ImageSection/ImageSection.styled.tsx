@@ -10,9 +10,15 @@ export const StyledDiv = styled('div')`
         object-position: 50% 30%;
     }
 
-    @media (min-width: 2048px) {
+    @media (min-width: 2420px) {
         img {
             height: 800px;
+        }
+    }
+
+    @media (min-width: 1921px) {
+        img {
+            height: 600px;
         }
     }
 `;
